@@ -1,0 +1,31 @@
+.banner {
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 3px solid var(--primary);
+}
+
+.linkedin-button,
+.resume-button {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  color: white;
+  background-color: var(--primary);
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.linkedin-button:hover,
+.resume-button:hover {
+  opacity: 0.85;
+}

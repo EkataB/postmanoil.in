@@ -1,0 +1,33 @@
+.projects-section {
+  padding: 2rem;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.project-card {
+  background: var(--card-bg, #f9f9f9);
+  color: var(--card-text, #000);
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 1.5rem;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.03);
+}
